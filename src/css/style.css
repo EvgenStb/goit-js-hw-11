@@ -1,0 +1,91 @@
+body {
+    margin:0;
+    min-width:  320px;
+    padding: 5px;
+    
+}
+button {
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container {
+    position:relative;
+    max-width: 1280px;
+    padding:0 10px;
+    margin: 0 auto
+}
+.search_form_wraper {
+    position: sticky;
+    top: 10px;
+    background-color: rgba(0, 0, 255, 0.637);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.search-form {
+    min-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+/* .search-form input {
+    margin: 0 auto;
+    
+} */
+.gallery {
+    margin-top:50px;
+    display: flex;
+    gap:5px;
+    flex-wrap: wrap;
+
+}
+.photo-card {
+    max-width: calc((100% - 15px)/4);
+    
+    height: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: gray;
+}
+a>img {
+    display: block;
+    max-width: 100%;
+    
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+}
+
+.load-more {
+    display: block;
+    min-width: 100px;
+    background-color: rgba(0, 0, 255, 0.637);
+    margin:10px auto;}
+
+    .hidden {
+        display: none;
+    }
+    
+/* 
+`<div class="photo-card">
+    <img src="${webformatURL}" alt="${tags}" loading="lazy" />
+    <div class="info">
+      <p class="info-item">
+        <b>${likes} Likes</b>
+      </p>
+      <p class="info-item">
+        <b>${views} Views</b>
+      </p>
+      <p class="info-item">
+        <b>${comments}Comments</b>
+      </p>
+      <p class="info-item">
+        <b>${downloads} Downloads</b>
+      </p>
+    </div>
+  </div>` */
